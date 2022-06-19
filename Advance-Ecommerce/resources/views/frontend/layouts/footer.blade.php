@@ -14,7 +14,7 @@
 							@php
 								$settings=DB::table('settings')->get();
 							@endphp
-							<p class="text">@foreach($settings as $data) {{$data->short_des}} @endforeach</p>
+							<p class="text">Hương vị độc đáo, phong cách phục vụ thân thiện, hết lòng vì khách hàn là ba chìa khóa chính mở cánh cửa thành công của cửa hàng</p>
 							<p class="call">Có câu hỏi? Gọi chúng tôi 24/7<span><a href="tel:(0123) 456 789">@foreach($settings as $data) {{$data->phone}} @endforeach</a></span></p>
 						</div>
 						<!-- End Single Widget -->
